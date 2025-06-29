@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: gray;
+}
+#heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ip{
+    width: 100px;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    outline: 0px;
+    border: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+#btn{
+    padding: 15px 10px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(149, 125, 172);
+    cursor: pointer;
+    color: white;
+
+}
+#btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+#op{
+    margin: 20px 0px;
+    font-size: 25px;
+}
